@@ -23,7 +23,7 @@ h5,
 h6 {
   font-family: tohoma;
   font-weight: 700;
-  color: #17baef;
+  color: #f6ae10;
 }
 a {
   color: #17baef;
@@ -278,6 +278,7 @@ pre code {
   padding: 80px 0;
   background: #f6ae10;
   color: #fff;
+      margin-bottom: 30px;
 }
 .features .title {
   color: #000;
@@ -301,16 +302,18 @@ pre code {
 /* ======= Docs Section ======= */
 .docs {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #f6ae10;
+      margin-bottom: 30px;
 }
 .docs .title {
-  color: #074f66;
+  color: #000;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .docs .docs-inner {
   max-width: 800px;
   background: #fff;
+  color: #000
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -322,8 +325,13 @@ pre code {
   background-clip: padding-box;
   margin: 0 auto;
 }
+.docs-inner {
+  margin-bottom: 30px;
+
+}
 .docs .block {
   margin-bottom: 60px;
+  text-align: center;
 }
 .docs .code-block {
   margin: 30px inherit;
@@ -406,6 +414,7 @@ pre code {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #d6f3fc;
+
 }
 .license .cta-container .icon-holder {
   margin-bottom: 15px;
@@ -616,6 +625,19 @@ pre code {
   .contact .social-icons a .fa:before {
     font-size: 18px;
   }
+}
+
+.img-responsive1 {
+  width: 261px;
+  margin: 0 auto;
+
+}
+hr{
+  border-top: 1px solid #8c8b8b;
+}
+.gorilla{
+  width: 70px;
+
 }
 /* Small devices (tablets, 768px and up) */
 /* Medium devices (desktops, 992px and up) */
