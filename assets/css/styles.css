@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: devAid - Responsive Website Template for developers
  * Version: 1.1
  * Author: Xiaoying Riley
@@ -9,7 +9,7 @@
 /* Default */
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
+  font-family: tohoma;
   color: #444;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: tohoma;
   font-weight: 700;
   color: #17baef;
 }
@@ -94,7 +94,7 @@ pre code {
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
-  background: #17baef;
+  background: #000;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -107,7 +107,7 @@ pre code {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
 .header.navbar-fixed-top .logo a {
-  color: #17baef;
+  color: #f6ae10;
 }
 .header.navbar-fixed-top .main-nav .nav .nav-item a {
   color: #666;
@@ -124,8 +124,8 @@ pre code {
   text-decoration: none;
 }
 .header .main-nav button {
-  background: #074f66;
-  color: #fff !important;
+  background: #fff;
+  color: #f6ae10 !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -150,11 +150,11 @@ pre code {
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #17baef;
+  color: #f6ae10;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #0a7396;
+  color: #fff;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -163,7 +163,7 @@ pre code {
   padding: 15px 10px;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #074f66;
+  color: #f6ae10;
   background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -175,24 +175,24 @@ pre code {
   background: none;
 }
 .header .main-nav .nav .nav-item.active {
-  color: #17baef;
+  color: #f6ae10;
 }
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
 }
 /* ======= Promo Section ======= */
 .promo {
-  background: #17baef;
+  background: #f6ae10;
   color: #fff;
   padding-top: 150px;
 }
 .promo .title {
   font-size: 98px;
-  color: #074f66;
+  color: #fff;
   margin-top: 0;
 }
 .promo .title .highlight {
-  color: #eebf3f;
+  color: #000;
 }
 .promo .intro {
   font-size: 28px;
@@ -208,19 +208,19 @@ pre code {
 .promo .meta {
   margin-top: 120px;
   margin-bottom: 30px;
-  color: #0a7396;
+  color: #f6ae10;
 }
 .promo .meta li {
   margin-right: 15px;
 }
 .promo .meta a {
-  color: #0a7396;
+  color: #f6ae10;
 }
 .promo .meta a:hover {
-  color: #074f66;
+  color: #f6ae10;
 }
 .promo .social-media {
-  background: #0c86ae;
+  background: #000;
   padding: 10px 0;
   margin: 0 auto;
 }
@@ -235,10 +235,10 @@ pre code {
 /* ======= About Section ======= */
 .about {
   padding: 80px 0;
-  background: #f5f5f5;
+  background: #000;
 }
 .about .title {
-  color: #074f66;
+  color: #f6ae10;
   margin-top: 0;
   margin-bottom: 60px;
 }
@@ -251,6 +251,10 @@ pre code {
   position: relative;
   margin-bottom: 30px;
 }
+.intro {
+  color: #f6ae10;
+  font-size: 17px;
+}
 .about .item .icon-holder {
   position: absolute;
   left: 30px;
@@ -258,36 +262,37 @@ pre code {
 }
 .about .item .icon-holder .fa {
   font-size: 24px;
-  color: #074f66;
+  color: #000;
 }
 .about .item .content {
   padding-left: 60px;
+
 }
 .about .item .content .sub-title {
   margin-top: 0;
-  color: #074f66;
+  color: #f6ae10;
   font-size: 18px;
 }
 /* ======= Features Section ======= */
 .features {
   padding: 80px 0;
-  background: #17baef;
+  background: #f6ae10;
   color: #fff;
 }
 .features .title {
-  color: #074f66;
+  color: #000;
   margin-top: 0;
   margin-bottom: 30px;
 }
 .features a {
-  color: #074f66;
+  color: #000;
 }
 .features a:hover {
-  color: #042a36;
+  color: #000;
 }
 .features .feature-list li {
   margin-bottom: 10px;
-  color: #074f66;
+  color: #000;
 }
 .features .feature-list li .fa {
   margin-right: 5px;
@@ -414,15 +419,15 @@ pre code {
 /* ======= Contact Section ======= */
 .contact {
   padding: 80px 0;
-  background: #17baef;
-  color: #fff;
+  background: #f6ae10;
+  color: #000;
 }
 .contact .contact-inner {
   max-width: 760px;
   margin: 0 auto;
 }
 .contact .title {
-  color: #074f66;
+  color: #000;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -430,7 +435,7 @@ pre code {
   margin-bottom: 60px;
 }
 .contact a {
-  color: #074f66;
+  color: #000;
 }
 .contact a:hover {
   color: #042a36;
@@ -458,8 +463,8 @@ pre code {
 }
 .contact .author-message .speech-bubble {
   margin-left: 155px;
-  background: #10b2e7;
-  color: #074f66;
+  background: #fff;
+  color: #000;
   padding: 30px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -472,7 +477,7 @@ pre code {
   position: relative;
 }
 .contact .author-message .speech-bubble .sub-title {
-  color: #074f66;
+  color: #000;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -490,19 +495,19 @@ pre code {
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-right: 10px solid #10b2e7;
+  border-right: 10px solid #000;
 }
 .contact .author-message .speech-bubble .source {
   margin-top: 30px;
 }
 .contact .author-message .speech-bubble .source a {
-  color: #074f66;
+  color: #000;
 }
 .contact .author-message .speech-bubble .source .title {
-  color: #0c86ae;
+  color: #000;
 }
 .contact .info .sub-title {
-  color: #0e98c5;
+  color: #000;
   margin-bottom: 30px;
   margin-top: 0;
 }
@@ -521,7 +526,7 @@ pre code {
 }
 .contact .social-icons a {
   display: inline-block;
-  background: #0c86ae;
+  background: #f6ae10;
   width: 48px;
   height: 48px;
   text-align: center;
@@ -538,7 +543,7 @@ pre code {
   float: left;
 }
 .contact .social-icons a:hover {
-  background: #e6ad14;
+  background: #000;
 }
 .contact .social-icons a .fa {
   color: #fff;
@@ -551,7 +556,7 @@ pre code {
 /* ======= Footer ======= */
 .footer {
   padding: 15px 0;
-  background: #042a36;
+  background: #000;
   color: #fff;
 }
 .footer .copyright {
