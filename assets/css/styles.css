@@ -252,7 +252,7 @@ pre code {
   margin-bottom: 30px;
 }
 .intro {
-  color: #f6ae10;
+  color: #fff;
   font-size: 17px;
 }
 .about .item .icon-holder {
@@ -636,7 +636,7 @@ hr{
   border-top: 1px solid #8c8b8b;
 }
 .gorilla{
-  width: 70px;
+  width: 180px;
 
 }
 /* Small devices (tablets, 768px and up) */
